@@ -1,0 +1,180 @@
+body{
+    font-family: Arial;
+}
+
+.blue-line {
+    height: 20px;
+    background-color: #0055aa;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-nav{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link{
+    font-weight: 700;
+    color: black;
+}
+
+hr{
+    color: #0055aa;
+    border: 2px solid #0055aa;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .navbar-nav{
+        font-size: 13px;
+    }
+    .blue-strip{
+        top: 255px!important;
+    }
+    .slider{
+        padding-top: 40px!important;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    .blue-strip{
+        top: 580px!important;
+    }
+    .navbar .container{
+        padding: 0 15px;
+    }
+    .slider{
+        padding-top: 2px!important;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    footer .container{
+        padding: 0;
+    }
+    
+}
+.panel-border{
+    border: 4px solid #0055aa;
+    margin: 0;
+    background-color: #cce6ff;
+}
+
+.slider{
+    padding: 2px;
+}
+.panel-title{
+    text-align: center;
+}
+.panel-title h1{
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #0071bd;
+    font-weight: 700;
+    font-size: 27px;
+}
+.panel-title span{
+    color: #ff0000;
+}
+
+.panel-title h5{
+    margin: 0;
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.panel-title h6{
+    margin: 0;
+    font-size: 11px;
+    color: #0071bd;
+    font-weight: 500;
+
+}
+
+.panel-txt p{
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.p-t-40{
+    padding-top: 40px;
+}
+
+.blue-strip{
+    position: absolute;
+    z-index: -1;
+    background-color: #0055aa;
+    height: 140px;
+    top: 240px;
+}
+.title{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.oferta hr{
+    width: 50%;
+}
+
+.oferta h3{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.oferta ul{
+    padding-left: 15px;
+}
+
+.footer-img{
+    float: right;
+}
+
+footer{
+    margin-top: 75px;
+}
+
+.footer-txt hr{
+    border:  4px solid #0055aa;
+}
+
+.copyright{
+    color: #0055aa;
+    padding-right: 0;
+    font-weight: 600;
+}
+.copyright p{
+    padding-left: 20px;
+}
+
+.concept{
+    color: #0055aa;
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.concept p{
+    float: right;
+    padding-right: 20px;
+}
+
+
