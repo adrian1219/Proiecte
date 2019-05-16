@@ -1,0 +1,97 @@
+.banner{
+    height: 800px;
+    background: url("img/cakes.jpg") no-repeat center;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+.bannerContent{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+
+#header a:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.active{
+    background-color: rgba(0,0,0,0.1);
+}
+#header {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 997;
+}
+.meniu{
+    background: url("img/nordwood.jpg") no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+.details h2{
+    text-align: center;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.counter{
+    background-image: url("img/food.png");
+    padding:50px 0 50px 0;
+    text-align: center;
+}
+
+#contact{
+    padding-top: 75px;
+    background: url("img/photo-.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.contact{
+    font-size: 20px;
+    color: #ffff33;
+}
+.contact h4{
+    font-size: 25px;
+}
+.contact a{
+    color: #ffff33;
+}
+
+.contact a:hover{
+    color: blue;
+}
+
+.bannerA{
+    height: 800px;
+    background: url("img/bannerA.jpeg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 800px) {
+    .bannerA {
+        height:unset;
+    }
+}
+.about{
+    background-image: url("img/dust_scratches.png");
+    padding: 35px 0 35px 0;
+}
+.about h1{
+    text-align: center;
+}
+
+.buffer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
